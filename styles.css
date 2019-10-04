@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 55px;
+  margin:0;
+  padding: 5rem 0 0 10rem;
+  margin-top: -10px;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-left: 10rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #3b3b3b;
+  font-size: 1.4rem;
+}
+
+h4 {
+  color: #2C9AB7;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+header {
+  height: 275px;
+  background-color: #2C9AB7;
+  width: 102%;
+}
+
+.main-nav {
+    background-color: #ebebeb;
+    padding: 0.3rem 10rem;
+    width: 102%;
+}
+
+.main-nav a {
+  color: #3b3b3b;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  padding: 0px 10px;
+  font-size: 1.08rem;
+}
+
+.main-nav p {
+  color: #3b3b3b;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  color: #3b3b3b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+
+a {
+  color: #2C9AB7;
+  text-decoration: none;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.main-content {
+  padding: 2rem 1rem 0 10rem;
+  width: 60%;
+  float: left;
+}
+
+blockquote {
+  color: #2C9AB7;
+  line-height: 1.5em;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: light;
+  margin: 4rem 0;
+  font-size: 20px;
+}
+
+aside {
+  float: right;
+  width: 38%;
+  padding: 2rem 10rem 3.5rem 4rem;
+}
+
+footer {
+  clear: both;
+  background-color: #3b3b3b;
+  width: 102%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+figcaption {
+  color: #3b3b3b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+figure {
+  margin-left: 0;
+}
+
+aside img {
+  max-width: 100%;
+  margin-bottom: 0.7rem;
+}
+
+footer img {
+  display: block;
+  width: 20%;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  color: white;
+  width: 30%;
+  text-align: center;
+  line-height: 2;
+}
+
+footer a {
+  color: white;
+  padding: 0px 10px;
+}
+
+.footer-nav p {
+  width: 100%;
+  font-weight: bolder;
+}
+
+aside section {
+  padding-bottom: 2rem;
+}
+
+aside a {
+  font-size: 14px;
+}
+
+.news-item {
+  margin-top: 40px;
+}
+
+.price {
+  margin-bottom: 4rem;
+  color: #3b3b3b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
