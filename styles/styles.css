@@ -28,12 +28,12 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-family: Helvetica, Arial, sans-serif;
-  color: #3b3b3b;
+  color: #1A535C;
   font-size: 1.4rem;
 }
 
 h4 {
-  color: #2C9AB7;
+  color: #1A535C;
   font-size: 18px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
@@ -42,7 +42,7 @@ h4 {
 
 header {
   height: 275px;
-  background-color: #2C9AB7;
+  background-color: #25837D;
   width: 102%;
 }
 
@@ -53,12 +53,18 @@ header {
 }
 
 .main-nav a {
-  color: #3b3b3b;
+  color: #1A535C;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bolder;
-  padding: 0px 10px;
+  padding: 1rem;
+  margin: 0 0.5rem;
   font-size: 1.08rem;
+}
+
+.main-nav a:first-child {
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .main-nav p {
@@ -74,7 +80,7 @@ p {
 }
 
 a {
-  color: #2C9AB7;
+  color: #DA3939;
   text-decoration: none;
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -86,12 +92,13 @@ a {
 }
 
 blockquote {
-  color: #2C9AB7;
+  color: #1A535C;
   line-height: 1.5em;
   font-family: "Open Sans", Arial, sans-serif;
-  font-weight: light;
   margin: 4rem 0;
   font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 aside {
@@ -144,7 +151,8 @@ footer p {
 
 footer a {
   color: white;
-  padding: 0px 10px;
+  padding: 10px 10px;
+  margin: 0 10px;
 }
 
 .footer-nav p {
@@ -170,5 +178,15 @@ aside a {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;
+}
 
+.skip-link {
+  position: absolute;
+  left: 10000px;
+}
+
+.skip-link:focus {
+  left: 5px;
+  top: 10px;
+  color: #ffffff;
 }
